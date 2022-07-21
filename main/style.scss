@@ -1,0 +1,58 @@
+$Violet: hsl(257, 40%, 49%);
+$Soft-Magenta: hsl(300, 69%, 71%);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400&family=Chewy&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&family=Raleway:wght@100;200;300&family=Roboto:wght@100;300&family=Signika+Negative:wght@300;400;500&family=Ubuntu:wght@300&display=swap');
+
+*,*:before,*:after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    width:375px;
+    background-color: $Violet;
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'poppins',sans-serif;
+    font-size: 25px;
+    color: rgb(255, 246, 246);
+    margin:2.5em 2em 1em 2em;
+    text-align: center;
+}
+p{
+    color: rgb(255, 246, 246);
+    font-size: 14px;
+    text-align: center;
+    margin:0 2.3em 1em 2.3em;
+}
+.logo{
+    display: inline-block;
+    margin:2em 0 3em 2em;
+}
+.logo-img{
+    width:150px;
+}
+.illustration{
+    width:100%;
+    text-align: center;
+}
+.illustration-img{
+    width:80%;
+}
+.button-div{
+    text-align: center;
+}
+ .button{
+text-decoration: none;
+color: $Violet;
+background: rgb(255, 246, 246);
+padding:.5em 3em;
+border-radius: 2rem;
+font-size: 14px;
+display: inline-block;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
