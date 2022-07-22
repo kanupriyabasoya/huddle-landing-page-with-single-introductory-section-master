@@ -28,6 +28,16 @@ p{
     text-align: center;
     margin:0 2.3em 1em 2.3em;
 }
+ul{
+    width:100%;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    padding:3em 0 2em 0 ;
+    li{
+        padding:.5em;
+    }
+}
 .logo{
     display: inline-block;
     margin:2em 0 3em 2em;
@@ -54,5 +64,6 @@ border-radius: 2rem;
 font-size: 14px;
 display: inline-block;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; 
+text-align: left;}
+.attribution a { color: hsl(240, 14%, 3%); }

@@ -3,31 +3,41 @@
 *, *:before, *:after {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
   width: 375px;
-  background-color: #674baf;
+  background-color: hsl(257deg, 40%, 49%);
   background-image: url(./images/bg-mobile.svg);
   background-repeat: no-repeat;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-  font-family: 'poppins',sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 25px;
-  color: #fff6f6;
+  color: rgb(255, 246, 246);
   margin: 2.5em 2em 1em 2em;
   text-align: center;
 }
 
 p {
-  color: #fff6f6;
+  color: rgb(255, 246, 246);
   font-size: 14px;
   text-align: center;
   margin: 0 2.3em 1em 2.3em;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 3em 0 2em 0;
+}
+ul li {
+  padding: 0.5em;
 }
 
 .logo {
@@ -54,9 +64,9 @@ p {
 
 .button {
   text-decoration: none;
-  color: #674baf;
-  background: #fff6f6;
-  padding: .5em 3em;
+  color: hsl(257deg, 40%, 49%);
+  background: rgb(255, 246, 246);
+  padding: 0.5em 3em;
   border-radius: 2rem;
   font-size: 14px;
   display: inline-block;
@@ -65,9 +75,9 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  text-align: left;
 }
 
 .attribution a {
-  color: #3e52a3;
-}
-/*# sourceMappingURL=style.css.map */
+  color: hsl(240deg, 14%, 3%);
+}/*# sourceMappingURL=style.css.map */
